@@ -1,4 +1,4 @@
-
+var time=0;
 function animate() {
   // 更新元素的位置
   /*xPos += step;
@@ -9,8 +9,8 @@ function animate() {
     
   }*/
   var timeEl = document.getElementById("time");
-    timeEl.innerHTML = new Date();
-	console.log("更新内容：" + new Date().toLocaleTimeString());
+    timeEl.innerHTML = time;
+	time++;
     requestAnimationFrame(animate);
 }
 
