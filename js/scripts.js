@@ -1,4 +1,3 @@
-var let xPos = 0;
 const step = 5; // 每次移动的像素数
 
   (function() {
