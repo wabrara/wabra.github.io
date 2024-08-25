@@ -1,6 +1,8 @@
 var let xPos = 0;
 const step = 5; // 每次移动的像素数
 
+var timeEl = document.getElementById("time");
+    timeEl.innerHTML = new Date();
 function animate() {
   // 更新元素的位置
   /*xPos += step;
