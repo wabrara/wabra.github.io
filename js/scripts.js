@@ -1,4 +1,4 @@
-const step = 5; // 每次移动的像素数
+//const step = 5; // 每次移动的像素数
 
   (function() {
 	  var timeEl = document.getElementById("time");
