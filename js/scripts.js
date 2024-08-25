@@ -1,8 +1,13 @@
 var let xPos = 0;
 const step = 5; // 每次移动的像素数
 
-var timeEl = document.getElementById("time");
+  (function() {
+	  var timeEl = document.getElementById("time");
     timeEl.innerHTML = new Date();
+    console.log('This is an Immediately Invoked Function Expression (IIFE).');
+  })();
+
+
 function animate() {
   // 更新元素的位置
   /*xPos += step;
